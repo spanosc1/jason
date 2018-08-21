@@ -1,0 +1,317 @@
+/* custom fonts from fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Comfortaa');
+
+/* Global */
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 204, 0.5);
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+label,
+input,
+textarea,
+select {
+  font-family: 'Comfortaa', cursive;
+  letter-spacing: 1px;
+  word-spacing: 1.5px;
+}
+
+/* hr styling */
+.faded {
+	border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+/* fa icons */
+.fa-heart-o,
+.fa-smile-o,
+.fa-heart {
+  color: #674172;
+}
+
+/* navigation */
+.navbar-default {
+  background-color: #d0c4e8;
+}
+.navbar-default .navbar-brand {
+  color: #674172;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #674172;
+}
+.navbar-brand {
+  font-family: 'Amatic SC', cursive;
+  font-size: 3.0em;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2.0em;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  color: #674172;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  border-bottom: 5px solid #b3ffa0;
+  background-color: #d0c4e8;
+  color: #674172;
+}
+
+
+.image-bg-fluid-height {
+  background: url('../img/pregnant_sunset_1.png') no-repeat center center scroll;
+  padding: 100px 0;
+  height: 50vh;
+  background-size: cover;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+         box-shadow: 0 8px 6px -6px black;
+}
+
+.quote {
+  background-color: rgba(103,65,114, 0.8);
+  height: 35%;
+  width: 100%;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+         box-shadow: 0 8px 6px -6px black;
+}
+
+.quote > p {
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: .5px;
+  word-spacing: 1.5px;
+  padding-top: 5%;
+  font-size: 3.5em;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 0px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+/* content */
+section {
+  padding: 75px 0;
+}
+
+.section-heading {
+  margin: 30px 0;
+  font-size: 8.5em;
+  font-family: 'Amatic SC', cursive;
+}
+
+.section-lead {
+  margin: 30px 0;
+}
+
+.section-paragraph {
+  margin: 30px 0;
+}
+
+blockquote {
+  background-color: rgba(208, 196, 232, 0.3);
+
+}
+
+.section-paragraph a {
+  color: #674172;
+}
+
+.service-content {
+  padding: 2%;
+}
+
+/* contact form */
+
+.form-control{
+
+}
+
+.contact-heading {
+  text-align: center;
+}
+
+.contact-form {
+  float: none;
+  margin: 0 auto;
+  padding: 1%;
+  background-color: #b3ffa0;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+         box-shadow: 0 8px 6px -6px black;
+}
+
+
+#contactSubmit {
+  border-radius: 0;
+  background-color: purple;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 500;
+  font-size: 1.5em;
+  margin: 0;
+
+}
+
+/* footer */
+footer {
+  margin: 50px 0 0 0;
+  background-color: #674172;
+  color: #fff;
+  padding-top: 2%;
+}
+
+.fa-instagram,
+.fa-facebook-square,
+.fa-envelope {
+  color: #fff;
+}
+
+.fa-instagram:hover,
+.fa-facebook-square:hover,
+.fa-envelope:hover {
+  color: #b3ffa0;
+}
+
+.fa-instagram:focus,
+.fa-facebook-square:focus,
+.fa-envelope:focus {
+  text-decoration: none;
+}
+
+.fa-instagram {
+  padding: 0 2%;
+}
+
+/* ========================================================================
+
+TESTING
+
+==========================================================================*/
+
+/*form {
+    margin:0
+}
+form label {
+    margin-bottom:.2em;
+    font-size:1.3rem;
+    line-height:1.3rem;
+    font-size:13px;
+    line-height:13px;
+    color:#e6e6e1;
+    text-shadow:0px -1px #202020
+}
+form label.error {
+    margin-bottom:1em;
+    font-size:1.2rem;
+    line-height:1.2rem;
+    font-size:12px;
+    line-height:12px;
+    color:#c0392b
+}
+form input[type="text"], form textarea {
+    margin-bottom:1.25em;
+    font-family:"Inconsolata", sans-serif;
+    font-size:1.4rem;
+    line-height:1.4rem;
+    font-size:14px;
+    line-height:14px;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    background:#e6e6e6;
+    border:1px solid #191919;
+    -moz-border-radius:0.2em;
+    -webkit-border-radius:0.2em;
+    border-radius:0.2em
+}
+form input[type="text"]:focus, form textarea:focus {
+    border-color:#191919;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none
+}
+form input[type="text"][disabled], form textarea[disabled] {
+    background:#fff
+}
+form input[type="text"].error, form textarea.error {
+    background:#e6e6e6;
+    border-color:#c0392b
+}
+fieldset {
+    border:0px;
+    margin:0;
+    padding:0
+}
+.required {
+    color:#e9266d
+}
+#success, #error {
+    display:none
+}
+#success span, #erro span {
+    display:block;
+    position:absolute;
+    top:0;
+    width:100%
+}
+#success span p, #error span p {
+    margin-top:6em
+}
+#success span p {
+  color:#9bd32d;
+}
+#error span p {
+  color:#c0392b;
+}*/
+
+/* =================================================== END ======================================== */
+
+/* media queries */
+@media(min-width:767px) {
+  body {
+    padding-top: 90px;
+  }
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+  .top-nav-collapse {
+    padding: 0;
+  }
+}
+
+@media(max-width:768px) {
+  section {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .section-heading {
+    font-size: 2em;
+  }
+}
